@@ -8,3 +8,7 @@ ___
 1. Smith
 2. Lexie Miller
 3. Michael Shea
+* University of Oklahoma
+* University of Virginia
+* UCLA
+    
