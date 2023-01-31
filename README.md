@@ -34,3 +34,26 @@ ___
 > “If you think you are too small to be effective, you have never been in the dark with a mosquito.” *– Betty Reese*
 
 > “I walk around like everything’s fine, but deep down, inside my shoe, my sock is sliding off.”*– Tina Fey*
+
+---
+
+# SVG Patterns
+> This is a collection of simple SVG shapes used as patterns. This list may grow over time but the idea is less to have a comprehensive collection than it is to have the syntax handy as a starting point for creating new and exciting patterns.
+
+Quick link article on stack over flow <https://css-tricks.com/snippets/svg/svg-patterns/>
+
+```
+<svg width="100%" height="100%">
+  
+  <!-- Create mask that we'll use to define a slight gradient -->
+  <mask maskUnits="userSpaceOnUse" id="fade">
+    <!-- Here's that slight gradient -->
+     	<linearGradient id="gradient" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0" style="stop-color: #FFFFFF"></stop>
+      <stop offset="1" style="stop-color: #000000"></stop>
+    </linearGradient>
+    <!-- The canvas for our mask -->
+    <rect fill="url(#gradient)" width="100%" height="100%"></rect>
+  </mask>
+  ```
+ Quick link for snippet source <https://css-tricks.com/snippets/svg/svg-patterns/>
